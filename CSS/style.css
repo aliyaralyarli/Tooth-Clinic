@@ -277,7 +277,7 @@
 
 .story {
     background-color: #f0f0f0;
-    padding: 7em 0 8em;
+    padding: 7em 0 0;
 }
 
 .story-text span {
@@ -334,11 +334,116 @@
 
 .story-post-img-text h3 {
     font-size: 20px;
-    font-weight: 400; 
+    font-weight: 400;
     color: #111111;
 }
 
 .story-post-img:hover .story-post-img-text {
     opacity: 1;
     padding: 20px;
+}
+
+.blog {
+    padding: 128px 0 350px;
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+.blog-all {
+    margin: auto;
+}
+
+.blog-text {
+    text-align: center;
+}
+
+.blog-text span {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #00BCD4;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.blog-text h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #000000CC;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    text-transform: capitalize;
+}
+
+.blog-all-img {
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 27%;
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.blog-all-img-text {
+    position: absolute;
+    background-color: #fff;
+    margin-top: 142px;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    transition: .5s;
+}
+
+.blog-all-img-text a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.blog-all-img-text p {
+    font-size: 1rem;
+    color: #999999;
+    margin-bottom: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.blog-all-img .img {
+    position: absolute;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.blog-all-img:hover .blog-all-img-text {
+    transform: translateY(160px);
+}
+
+.blog-all-img-text-title span {
+    color: #999999;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.blog-all-img-text-title span i {
+    color: #00BCD4;
+    margin-right: 5px;
+}
+
+.blog-all-img-text-title span a {
+    color: #00BCD4;
+    font-size: 13px;
+    font-weight: 600;
 }
