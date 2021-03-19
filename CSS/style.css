@@ -614,3 +614,84 @@
     background-color: #00BCD4;
     color: #fff;
 }
+
+.services {
+    background-color: #F0F0F0;
+    padding: 100px 0 0;
+}
+
+.services-text {
+    text-align: center;
+}
+
+.services-text span {
+    font-size: 14px;
+    color: #00BCD4;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.services-text h2 {
+    font-size: 40px;
+    font-weight: 550;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.services-all {
+    overflow: hidden;
+}
+
+.services-all-card {
+    padding: 30px 30px 40px;
+    border-radius: 4px;
+    float: left;
+    width: 20%;
+    background-color: #fff;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 30px;
+    transition: .7s;
+}
+
+.services-all-card h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.services-all-card p {
+    line-height: 1.8;
+    font-weight: 400;
+    color: #999999;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+.services-all-card i {
+    background-color: #00BCD4;
+    color: #fff;
+    padding: 30px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.services-all-card:hover {
+    background-color: #00BCD4;
+}
+
+.services-all-card:hover i {
+    background-color: #4DD0E1;
+}
+
+.services-all-card:hover h2 {
+    color: #fff;
+}
+
+.services-all-card:hover p {
+    color: rgb(233, 231, 231);
+}
