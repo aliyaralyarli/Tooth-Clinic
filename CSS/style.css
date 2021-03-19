@@ -126,8 +126,6 @@
     position: absolute;
     background-color: #00BCD4;
     width: 49%;
-    padding: 170px 0;
-    float: left;
 }
 
 .second-right {
@@ -147,6 +145,8 @@
     border-top: transparent;
     border-right: transparent;
     border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+    margin-right: 22px;
     outline: none;
     color: #E5E5E7;
 }
@@ -156,15 +156,15 @@
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-bottom: 5px;
     text-transform: uppercase;
 }
 
 .second-left form {
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 
-.second-left-text span {
+.second-left span {
     font-size: 13px;
     margin-bottom: 5px;
     text-transform: uppercase;
@@ -172,30 +172,31 @@
     color: #fff;
 }
 
-.second-left-text h2 {
+.second-left h2 {
     font-size: 30px;
     font-weight: 500;
     color: #fff;
     text-transform: capitalize;
+    margin-bottom: 48px;
 }
 
 .second-left-text {
-    top: 40px;
-    left: 60px;
+    text-align: center;
 }
 
-.second-left form button {
-    width: 60%;
+.second-left button {
+    width: 100%;
     background-color: #fff;
     color: #00bcd4;
     cursor: pointer;
-    padding: 15px 10px;
+    padding: 20px;
     box-shadow: 0px 24px 36px -11px rgb(0 0 0 / 9%);
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 1px;
     border: 1px solid #fff;
     border-radius: 0.25rem;
+    margin-top: 50px;
 }
 
 .second-right-text span {
@@ -276,7 +277,7 @@
 }
 
 .story {
-    background-color: #F8F8F8;
+    background-color: #F0F0F0;
     padding: 7em 0 0;
 }
 
@@ -344,7 +345,7 @@
 }
 
 .blog {
-    padding: 200px 0;
+    padding: 200px 0 250px;
     background-color: #f0f0f0;
     overflow: hidden;
 }
@@ -555,7 +556,8 @@
     position: relative;
     padding: 90px;
 }
-.overlay1{
+
+.overlay1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -564,12 +566,14 @@
     width: 100%;
     height: 100%;
 }
-.appointment-text{
+
+.appointment-text {
     position: absolute;
     top: 65px;
     left: 220px;
 }
-.appointment-text span{
+
+.appointment-text span {
     font-size: 13px;
     color: #fff;
     margin-bottom: 5px;
@@ -578,22 +582,25 @@
     letter-spacing: 2px;
     line-height: 1.8;
 }
-.appointment-text h1{
+
+.appointment-text h1 {
     font-size: 30px;
     color: #fff;
     font-weight: 700;
     line-height: 1.5;
 }
-.appointment-button{
+
+.appointment-button {
     position: absolute;
     top: 80px;
     right: 260px;
 }
-.appointment-button a{
+
+.appointment-button a {
     text-transform: uppercase;
     text-decoration: none;
     color: #00BCD4;
-    padding:25px 35px;
+    padding: 25px 35px;
     background-color: #fff;
     border: 1px solid #fff;
     border-radius: 4px;
@@ -602,7 +609,8 @@
     font-weight: 700;
     transition: .3s;
 }
-.appointment-button a:hover{
+
+.appointment-button a:hover {
     background-color: #00BCD4;
     color: #fff;
 }
