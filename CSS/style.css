@@ -617,7 +617,7 @@
 
 .services {
     background-color: #F0F0F0;
-    padding: 100px 0 0;
+    padding: 100px 0 130px;
 }
 
 .services-text {
@@ -695,3 +695,78 @@
 .services-all-card:hover p {
     color: rgb(233, 231, 231);
 }
+
+.info {
+    padding: 300px 0;
+    background-color: #fff;
+    position: relative;
+}
+
+.img img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 35%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 150px;
+}
+
+.info-text {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    padding: 50px 80px 50px 20px;
+}
+
+.info-text span {
+    font-size: 14px;
+    color: #00BCD4;
+    margin-bottom: 5px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.info-text h2 {
+    color: #000000cc;
+    font-size: 40px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.info-text p {
+    color: #999999;
+    font-size: 1rem;
+    margin-bottom: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.info-all {
+    overflow: hidden;
+}
+
+.info-all-box {
+    float: left;
+    border: 1px solid #00BCD4;
+    position: relative;
+    border-radius: 4px;
+    padding: 10px 20px 40px;
+    width: 30%;
+}
+
+.info-all-box-icon {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    padding: 10px 10px 40px;
+}
+
+.info-all-box-icon i {
+    color: #00BCD4;
+}
+
+.info-all-box-text {}
